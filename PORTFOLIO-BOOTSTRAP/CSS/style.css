@@ -1,0 +1,135 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+.navbar-portfolio{
+  color: white !important;
+}
+.navbar-portfolio:hover{
+color: #1ABC9C !important;
+transform: scale(1.1);
+}
+.class-primary{
+  background-color: #1ABC9C;
+  color: white !important;
+}
+.class-secondary{
+  background-color: #152b41;
+  color: white !important;
+}
+.class-terciary{
+  background-color: white;
+}
+.avatar-main{
+  width: 200px;
+}
+#main-container{
+  height: 80vh;
+  margin-top: 88px;
+}
+.line-star{
+  height: 3px;
+  width: 112px;
+}
+h1{
+  font-weight: 800;
+  font-family: 'Montserrat', sans-serif;
+}
+.class-text{
+  font-size:0.9em;
+  font-weight: 400;
+}
+.class-button{
+  background-color: transparent;
+  border-color: #FFFFFF;
+  color:#FFFFFF;
+  box-sizing: border-box;
+}
+.effect-gallery{
+  width: 356px;
+  height: 257px;
+  background-color: #1abc9cb9;
+  display:none;
+}
+#cabin{
+  width: 356px;
+  height: 257px;
+  background-image: url(./../ASSETS/IMG/cabin.png);
+  background-size: cover;
+}
+#circus{
+  width: 356px;
+  height: 257px;
+  background-image: url(./../ASSETS/IMG/circus.png);
+  background-size: cover;
+}
+#cake{
+  width: 356px;
+  height: 257px;
+  background-image: url(./../ASSETS/IMG/cake.png);
+  background-size: cover;
+}
+#game{
+  width: 356px;
+  height: 257px;
+  background-image: url(./../ASSETS/IMG/game.png);
+  background-size: cover;
+}
+#submarine{
+  width: 356px;
+  height: 257px;
+  background-image: url(./../ASSETS/IMG/submarine.png);
+  background-size: cover;
+}
+#safe{
+  width: 356px;
+  height: 257px;
+  background-image: url(./../ASSETS/IMG/safe.png);
+  background-size: cover;
+}
+
+#cabin:hover .effect-gallery{
+  display: block;
+}
+#circus:hover .effect-gallery{
+  display: block;
+}
+#cake:hover .effect-gallery{
+  display: block;
+}
+#game:hover .effect-gallery{
+  display: block;
+}
+#safe:hover .effect-gallery{
+  display: block;
+}
+#submarine:hover .effect-gallery{
+  display: block;
+}
+.class-form{
+  width: 50vw;
+}
+.class-form input, .class-form textarea{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.class-about{
+  box-sizing: border-box;
+  padding-bottom: 300px;
+  height: 70vh;
+}
+.class-input:focus{
+  outline: none !important;
+  border: none !important;
+  color: none !important;
+  background-color: none !important;
+  box-shadow: none !important;
+}
+.class-footer{
+  width: 100vw;
+  height: 15vh;
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}

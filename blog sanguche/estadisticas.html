@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Estadisticas</title>
+    </head>
+    <body>
+        <header>
+            <h1>Estadisticas</h1>
+            <a href="index.html">⬅️ Volver</a>
+            <hr />
+        </header>
+        <main>
+        <section>
+            <table border cellspacing="0" cellpadding="10">
+            <tr>
+                <th>Lugar</th>
+                <th>Enero</th>
+                <th>Febrero</th>
+                <th>Marzo</th>
+                <th>Delivery</th>
+            </tr>
+            <tr>
+                <td><a href="">Fiky</a></td>
+                <td>1500</td>
+                <td>1300</td>
+                <td>1400</td>
+                <td rowspan="2">Si</td>
+            </tr>
+            <tr>
+                <td><a href="">El 10</a></td>
+                <td>1200</td>
+                <td>1300</td>
+                <td>1600</td>
+            </tr>
+            <tr>
+                <td><a href="">Los Electricos</a></td>
+                <td>No</td>
+                <td>1200</td>
+                <td>1300</td>
+                <td>1500</td>
+            </tr>
+            </table>
+        </section>
+        <section>
+            <h2>Registrate para recibir descuentos</h2>
+            <fieldset>
+                <legend>Datos del usuario</legend>
+                <form action="">
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" name="user-name" required maxlength="15" minlength="2">
+                    <br><br>
+                    <label for="lastname">Apellido</label>
+                    <input type="text" id="lastname" name="user-lastname" required maxlength="15" minlength="2">
+                    <br><br>
+                    <label for="email">Correo electronico</label>
+                    <input type="email" id="email" name="user-email" required>
+                    <br><br>
+                    <label for="age">Edad</label>
+                    <input type="number" id="age" name="user-age" required>
+                    <br><br>
+                    <label for="birth">Fecha de nacimiento</label>
+                    <input type="date" id=birth name="user-birthday"  required>
+                    <br><br>
+                    <h3>Pais de residencia</h3>
+                    <label for="arg">Argentina</label>
+                    <input type="radio" id="arg" name="user-country" >
+                    <br>
+                    <label for="uru">Uruguay</label>
+                    <input type="radio" id="uru" name="user-country">
+                    <br>
+                    <label for="bra">Brasil</label>
+                    <input type="radio" id="bra" name="user-country">
+                    <br>
+                    <labelechuga">Otro</label>
+                    <input type="radio" id="otro" name="user-country">  
+                    <br>
+                    <h3>Preferencias</h3>
+                    <label for="lechuga">Lechuga</label>
+                    <input type="checkbox" id="lechuga" name="user-preferences">
+                    <br> 
+                    <label for="tomate">Tomate</label>
+                    <input type="checkbox" id="tomate" name="user-preferences">
+                    <br> 
+                    <label for="cebolla">Cebolla</label>
+                    <input type="checkbox" id="cebolla" name="user-preferences">
+                    <br> 
+                    <button type="submit">Cargar</button>
+                    <button type="reset">Borrar todo</button>
+                </form>
+                
+            </fieldset>
+        </section>
+    </main>
+    </body>
+</html>

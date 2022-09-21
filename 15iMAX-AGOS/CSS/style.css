@@ -1,0 +1,137 @@
+*{
+    font-family: 'Sen', sans-serif;
+    padding: 0%;
+    margin:0%;
+    box-sizing: border-box;
+}
+.nav-button-icon{
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+header{
+    width: 100vw;
+    position: fixed;
+    top: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    font-weight: 800;
+}
+header:hover{
+    background-color: black;
+}
+#main-title{
+    color: white;
+    font-size: 1.25em;
+}
+#header-profile-circle-button{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: black;
+}
+#header-profile-button{
+    font-weight: 800;
+    color: white;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+#header-profile-circle-button span{
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+#header-backgroundbutton{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #CE3389;
+    background: -moz-linear-gradient(left, #CE3389 0%, #ECEFFF 50%, #4D4CC5 100%);
+    background: -webkit-linear-gradient(left, #CE3389 0%, #ECEFFF 50%, #4D4CC5 100%);
+    background: linear-gradient(to right, #CE3389 0%, #ECEFFF 50%, #4D4CC5 100%);
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+main{
+    box-sizing: border-box;
+    background-image: url("./../ASSETS/img/9d0b3e6a-ff74-4285-896d-807894947eea.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+#main-shadow{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 10px;
+    background-image: url("./../ASSETS/img/Protection-Image-DT.png");
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+#main-button-play{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background: #CE18B4;
+    background: -moz-linear-gradient(left, #CE18B4 0%, #FFFEFE 100%);
+    background: -webkit-linear-gradient(left, #CE18B4 0%, #FFFEFE 100%);
+    background: linear-gradient(to right, #CE18B4 0%, #FFFEFE 100%);
+    border: none;
+    color: #FFFEFE;
+    cursor: pointer;
+}
+#main-button-play:hover{
+    background: #FCFFF4;
+    background: -moz-linear-gradient(left, #FCFFF4 0%, #CE18B4 100%);
+    background: -webkit-linear-gradient(left, #FCFFF4 0%, #CE18B4 100%);
+    background: linear-gradient(to right, #FCFFF4 0%, #CE18B4 100%);
+}
+main div h2,p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 0.85em;
+    color: white;
+}
+#main-button-masinfo{
+    font-weight: 600;
+    color: #FFFEFE;
+    padding: 7px;
+    background-color: #a7a1a1;
+    border: none;
+    border-radius: 1rem;
+    background-color: rgba(138, 137, 137, 0.479);
+    cursor: pointer;
+}
+#main-button-masinfo:hover{
+    background-color: #CE18B4;
+}
+.main-movie-img{
+    padding: 15px 10px;
+    width: 200px;
+    height: 200px;
+    border: none;
+}
+.main-shadow{
+    
+}

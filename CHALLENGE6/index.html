@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 6 Agos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <h3>Formulario de Ingreso</h3>
+            <fieldset>
+            <legend>Datos del usuario</legend>
+                <form action="" id="form-style">
+                    <label for="lastname"> Apellido:</label>
+                    <input type="text" id="lastname">
+                    <br>
+                    <label for="name">Nombre: </label>
+                    <input type="text" id="name">
+                    <br><br>
+                    Pais:
+                    <select name="" id="">
+                        <option value="">Estados Unidos</option>
+                        <option value="">Argentina</option>
+                    </select>
+                    <br>
+                    Genero:
+                    <input type="radio" id="masculino" name="user-gender" required>
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" id="femenino" name="user-gender" required>
+                    <label for="femenino">Femenino</label>
+                    <input type="radio" id="otro" name="user-gender" required>
+                    <label for="otro">Otro</label>
+                    <br>
+                    <label for="user">Usuario:</label>
+                    <input type="text" id="user" required>
+                    <label for="pass">Contraseña:</label>
+                    <input type="password" id="pass" maxlength="16" minlength="8" required>
+                    <br>
+                
+                </form> 
+            </fieldset>
+        </section>
+        <section>
+            <h3>Usuarios Registrados</h3>
+            <table id="table-user">
+                <tr>
+                    <th class="th-style">Apellido</th>
+                    <th class="th-style">Nombre</th>   
+                    <th class="th-style">Pais</th>
+                    <th class="th-style">Genero</th>
+                </tr>
+                <tr>
+                    <td>Stark</td>
+                    <td>Tony</td>
+                    <td>usa</td>
+                    <td>M</td>
+                </tr>
+                <tr>
+                    <td>Danvers</td>
+                    <td>Carol</td>
+                    <td>usa</td>
+                    <td>F</td>
+                </tr>
+                <tr>
+                    <td>Rogers</td>
+                    <td>Steve</td>
+                    <td>usa</td>
+                    <td>M</td>
+                </tr>
+                <tr>
+                    <td>Romanoff</td>
+                    <td>Natasha</td>
+                    <td>ru</td>
+                    <td>F</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+</body>
+</html>

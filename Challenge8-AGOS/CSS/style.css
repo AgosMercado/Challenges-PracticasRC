@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#section-skay{
+    background-color: #0000FF;
+    width: 100vw;
+    height: 62vh;
+    position: relative;
+}
+#section-grass{
+    background-color: #008000;
+    width: 100vw;
+    height: 38vh;
+}
+#sun{
+    width: 10vmax;
+    height: 10vmax;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    top: 10vh;
+    left: 70vw;
+    background: #FEFE19;
+}
+.triangulo1{
+    border-right: 30vw solid transparent;
+    border-bottom: 30vh solid #A52A2A;
+    border-left: 30vw solid transparent;
+    position: absolute;
+    bottom: 0;
+    left: 3vw;
+}
+.triangulo2{
+    border-right: 30vw solid transparent;
+    border-bottom: 30vh solid #A52A2A;
+    border-left: 25vw solid transparent;
+    position: absolute;
+    bottom: 0;
+    left: 25vw;
+}
+.triangulo3{
+    border-right: 30vw solid transparent;
+    border-bottom: 30vh solid #A52A2A;
+    border-left: 25vw solid transparent;
+    position: absolute;
+    bottom: 0;
+    right:1.5vw;
+}

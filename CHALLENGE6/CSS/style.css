@@ -1,0 +1,43 @@
+body{
+    margin: 15px;
+    background-color: #A9A9A9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+th,td{
+    border: solid 2px #A9A9A9;
+    padding: 8px;
+    margin:5px;
+}
+table{
+    border-collapse:collapse;
+}
+th{
+    background-color: #5F9EA0;
+    color:#FFFFFF;
+    font-size: 18px;
+}
+td{
+    background-color: #FFE4C4;
+}
+fieldset{
+    background-color: #DC143C;
+    border-radius: 5px;
+    border: none;
+}
+legend{
+    background-color: #6495ED;
+    padding: 8px;
+    border-radius: 8px;
+    margin-left: 13px;
+}
+#form-style{
+    font-size: 17px;
+}
+#lastname{
+    margin-bottom: 1px;
+}
+h3{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: -0.75px;
+}
