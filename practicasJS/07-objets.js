@@ -14,7 +14,7 @@
 //   ],
 //   children: null,
 
-//   saludar: function(){
+//   saludar: function(){       
 //     console.log("Hola, soy Ago");
 //   },
 
@@ -66,13 +66,13 @@
 // console.log(arg);
 // console.log(bra);
 
-// //* HERENCIA
+// //? HERENCIA
 // class Persona{
 //   constructor(name, age){
 //     this.name=name;
 //     this.age=age;
 //   }
-//   saludar(){
+//   saludar(){  //! Cuando creo una clase no es necesario poner "function" en el metodo
 //     console.log(`Hola a todos, mi nombre es ${this.name}`);
 //   }
 // }
@@ -82,62 +82,13 @@
 //     super(name,age)
 //     this.group=group;
 //   }
-//   get getAge(){           //*DEVOLVER UNA PROPIEDAD
+//   get getAge(){           //!DEVOLVER UNA PROPIEDAD
 //     return this.age;
 //   }
-//   set setGroup(group){    //*SETTER: CAMBIAR DATOS DEL OBJETO
+//   set setGroup(group){    //!SETTER: CAMBIAR DATOS DEL OBJETO
 //     this.group=group;
 //   }
 // }
 // const agos = new Student("Agos",29,"15i");
 // console.log(agos);
 
-//* CUENTA BANCARIA
-/*Escribe un programa que cree un objeto "cuenta" con las siguientes propiedades:
--Una propiedad titular con el valor "Alex".
--Una propiedad saldo, teniendo como valor inicial 0.
--Un método ingresar() que permita añadir dinero a la cuenta, pasando la cantidad como parámetro
--Un método extraer() que permita retirar la cantidad pasada como parámetro.
--Un método informar() que retorne la información del estado de la cuenta.*/
-
-class Cuenta{
-  constructor(name){
-    this.name=name;
-    this.saldo=0;
-    this.idCuenta = Math.floor(Math.random()*10000);
-  }
-  ingresar(monto){
-    if(monto>0){
-    this.saldo=this.saldo+monto;
-    console.log("Tu nuevo saldo es "+this.saldo);
-    }else{
-      console.log("Ingresa un valor valido");
-    }
-  };
-  extraer(monto){
-    if(monto>this.saldo){
-      console.log("Saldo insuficiente")
-    }
-      else if (monto>0){
-        this.saldo=this.saldo-monto;
-        console.log("Tu nuevo saldo es "+this.saldo);
-      }else{
-        console.log("Ingresa un valor valido")
-      }
-  };
-  // if (monto<=this.saldo){ //!otra forma
-    //     if(monto>0){
-    //     this.saldo=this.saldo-monto;
-    //     console.log("Tu nuevo saldo es "+this.saldo);
-    //     }else{
-    //     console.log("Ingresa un valor valido");
-    //     }
-    // }
-    // else {console.log("Saldo insuficiente")};
-  informar(){
-    console.log(`El titular de la cuenta número ${this.idCuenta}, a nombre de ${this.name} disponde de un saldo total de ${this.saldo}`)
-  }
-  }
-  
-
-let agosCuenta = new Cuenta("Agos")

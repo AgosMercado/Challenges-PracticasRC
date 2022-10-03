@@ -11,8 +11,8 @@ class Contacto{
     this.nombre=nombre;
     this.numero=numero;
   };
-  obtenerNombre() {
-    console.log(this.nombre);
+  getContact(){
+    console.log(`Nombre: ${this.nombre}, Numero: ${this.numero}`);
   }
 }
 
@@ -25,22 +25,31 @@ class Agenda{
     this.dueño=dueño;
     this.contactos=[];
   };
-  agregar(contact){
-    this.contactos.push(contact);
-    console.log("Los nuevos contactos agregados son "+this.contactos);
+  agregar(contacto){ //! AGREGAR LOS CONTACTOS
+    this.contactos.push(contacto);
+    console.log("Contacto agregado con éxito");
   };
-  listar(){
+  listar(){  //!LISTAR LOS CONTACTOS
     for (let i=0;i<this.contactos.length;i++){
       console.log(this.contactos[i]);
     }
   };
-  borrar(contactoAeliminar){ //!NO ME SALE
-    if(Contacto.nombre==contactoAeliminar){
-      this.contactos = this.contactos.filter(contact=>contact!=contactoAeliminar)
+  borrar(nombreDelContacto){ //! Para eliminar el contacto ingresar el nombre como string (tal cual se agendó)
+    const contactoAEliminar = this.contactos.find(contacto=>contacto.nombre==nombreDelContacto)
+    if(contactoAEliminar){
+      this.contactos = this.contactos.filter(contacto=>contacto.nombre!=contactoAEliminar.nombre)
     }else{
       console.log("El contacto no existe en tu agenda");
     }
   }
-
+  buscar(nombreDelContacto){ //! El nombre a buscar debe ser ingresado tal cual se agendo, como string
+    const contactoABuscar = this.contactos.find(contacto=>contacto.nombre==nombreDelContacto);
+    if(contactoABuscar){
+      console.log(contactoABuscar); //*CONSULTAR PORQUE NO PUEDO PONER STRING MAS EL OBJETO*********************************
+    }else{
+      console.log("No tienes este contacto en tu agenda");
+    }
 }
+}
+
 let agendaAgos= new Agenda("Agos");
