@@ -11,3 +11,15 @@
   width: 60px;
   background-color: coral;
 }
+.corral{
+  width: 80vw;
+  height: 50vh;
+  border: black dotted 2px;
+  margin-bottom: 250px;
+  margin-left: 20px;
+}
+.pet{
+  width: 75px;
+  height: 75px;
+  background-color:crimson;
+}
