@@ -1,0 +1,21 @@
+.card{
+  width: 250px;
+}
+.image-style{
+width: 250px;
+height: 300px;
+object-fit: cover;
+object-position: center;
+} 
+.image-style-detail{
+width: 400px;
+height: 450px;
+object-fit: cover;
+object-position: center;
+} 
+#container-form-login{
+width: 30vw;
+height: 40vh;
+border: none;
+background-color:#F8F9FA
+}
